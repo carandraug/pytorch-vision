@@ -31,8 +31,8 @@ class OxfordIIITPet(VisionDataset):
     """
 
     _RESOURCES = (
-        ("https://www.robots.ox.ac.uk/~vgg/data/pets/data/images.tar.gz", "5c4f3ee8e5d25df40f4fd59a7f44e54c"),
-        ("https://www.robots.ox.ac.uk/~vgg/data/pets/data/annotations.tar.gz", "95a8c909bbe2e81eed6a22bccdf3f68f"),
+        ("https://thor.robots.ox.ac.uk/~vgg/data/pets/images.tar.gz", "5c4f3ee8e5d25df40f4fd59a7f44e54c"),
+        ("https://thor.robots.ox.ac.uk/~vgg/data/pets/annotations.tar.gz", "95a8c909bbe2e81eed6a22bccdf3f68f"),
     )
     _VALID_TARGET_TYPES = ("category", "segmentation")
 
