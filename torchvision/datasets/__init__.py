@@ -29,6 +29,7 @@ from .folder import DatasetFolder, ImageFolder
 from .food101 import Food101
 from .gtsrb import GTSRB
 from .hmdb51 import HMDB51
+from .human_pose_evaluator import HumanPoseEvaluator
 from .imagenet import ImageNet
 from .inaturalist import INaturalist
 from .kinetics import Kinetics
@@ -126,4 +127,5 @@ __all__ = (
     "SintelStereo",
     "InStereo2k",
     "ETH3DStereo",
+    "HumanPoseEvaluator",
 )
